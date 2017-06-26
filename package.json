@@ -1,0 +1,26 @@
+{
+  "name": "electron-three-sandbox",
+  "version": "1.0.0",
+  "description": "A minimal Electron application with three.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc --watch & ./node_modules/.bin/electron ."
+  },
+  "keywords": [
+    "Electron",
+    "three"
+  ],
+  "author": "Alexander Guski",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-reload": "^1.2.1",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "@types/stats": "^0.16.30",
+    "@types/three": "^0.84.14",
+    "stats.js": "^0.17.0",
+    "three": "^0.86.0"
+  }
+}
